@@ -1,0 +1,60 @@
+
+ /* Estilo transparente para el Navbar */
+.navbar-transparent {
+    background-color: transparent !important;
+  }
+
+.navbar-on-top {
+    position: absolute;
+    width: 100%;
+    z-index: 10; /* ¿Esto es para que este sobre el carousel  */
+}
+
+
+/* Hay partes que me estan quedando en blanco, solucion con con bg-black */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.carousel {
+    margin-top: 56px; /*alto de tu navbar */
+}
+
+/*Ajuste de estilos de las card, color de fondo, color de letra y tamaño de imagen para que queden iguales */
+.card-body {
+    background-color: #00BFFF; 
+    color: white;
+}
+
+.card-img-top {
+    width: 100%; /* Ancho  */
+    height: 200px; /* Alto */
+    object-fit: cover; /* cubrir sin deformarse */
+}
+
+.icono {
+    margin-right: 10px;
+    font-size: 24px; 
+}
+
+.viajes_chile  {
+    margin-right: 10px;
+    font-size: 24px; 
+}
+
+
+
+  .icon-container {
+    width: 100%; /* Hace que el contenedor del ícono tenga el mismo ancho que el párrafo */
+    background-color: #00BFFF; /* Color de fondo para el ícono */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Añade algo de espacio dentro del contenedor del ícono */
+    margin-bottom: 15px; /* Espaciado entre el ícono y el texto */
+    margin-right: 10px;
+    font-size: 24px; 
+  }
+  
